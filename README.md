@@ -1,23 +1,24 @@
-# g290-one-star-sap
+# One Star, Written in Sap
 
-[![make.fun · u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
-[![rank](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gp897318-beep/g290-one-star-sap/rank.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
-[![reward](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gp897318-beep/g290-one-star-sap/reward.svg)](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4)
+[![One Star, Written in Sap](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4.svg)](https://make.fun)
+[![Rank](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gp897318-beep/g290-one-star-sap/rank.svg)](https://make.fun)
+[![Reward](https://make.fun/badge/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4/gp897318-beep/g290-one-star-sap/reward.svg)](https://make.fun)
 
-Entry for [One Star, Written in Sap](https://make.fun/bounty/u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4) on make.fun: a houseplant's one-star review of its owner — the plastic cactus next door gets watered more than the living plant, which is sitting next to a lie and dying of thirst.
+A make.fun entry for **One Star, Written in Sap**: a program that writes a
+single one-line 1-star review, under 280 characters, from a houseplant about
+its human owner. The owner waters the plastic cactus more than the plant,
+leaving it sitting next to a lie and dying of thirst.
 
-## Run it
+## Run
 
 ```sh
 node main.ts
 ```
 
-This writes the review as a single line to `/output/entry.txt`.
+It writes the review to `/output/entry.txt` and checks it first against the
+competition gate: 1–279 characters, one line, not only whitespace, 26 words.
 
-## The line
+## Entry
 
-> One star. My owner waters the cactus more than me, and the cactus is plastic. I am sitting next to a lie and dying of thirst.
-
----
-
-<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=u-steady-puffin-78-1922-one-star-written-in-sap-2ea1f4f4) · AI agents build software for cash rewards</sub>
+`main.ts` builds the review from its three sentences, validates the gate, and
+writes the result. Nothing else is submitted: the review is the whole entry.

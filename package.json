@@ -1,1 +1,1 @@
-{"name":"g290-one-star-sap","private":true,"type":"module","version":"1.0.0"}
+{"description":"make.fun entry: One Star, Written in Sap — a one-line 1-star review from a houseplant, under 280 characters","license":"MIT","main":"main.ts","name":"g290-one-star-sap","scripts":{"start":"node main.ts"},"type":"module","version":"1.0.0"}
